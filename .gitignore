@@ -1,0 +1,21 @@
+# Maven target directory
+/target/
+
+# Eclipse files
+/.classpath
+/.project
+/.settings/
+
+# IntelliJ IDEA files
+/.idea/
+*.iml
+
+# Spring Boot specific files
+/.spring-boot/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
