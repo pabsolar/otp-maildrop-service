@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: smtp.example.com
+    port: 587
+    username: your_username
+    password: your_password
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+otp:
+  expiryTime: 300000 # 5 minutes in milliseconds
+  retryCount: 5
